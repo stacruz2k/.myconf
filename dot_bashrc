@@ -1,0 +1,35 @@
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+alias la='ls -lah --color=auto'
+alias ip='ip --color=auto'
+alias diff='diff --color=auto'
+alias nv='nvim'
+
+# My Prompt
+PS1='\[\e[38;2;255;215;0m\]\[\e[1m\]\u\[\e[0m\]\[\e[38;2;255;140;0m\]@\h\[\e[0m\]:\[\e[38;2;50;205;50m\]\w\[\e[0m\]\$ '
+##PS1='[\u@\h \W]\$ '
+
+
+#Some settings
+HISTSIZE=10000
+HISTFILESIZE=20000
+HISTTIMEFORMAT='%d/%m/%y %T '
+
+
+#My paths
+#export PATH=$PATH:/var/lib/flatpak/exports/bin
+export PATH=$PATH:/home/jsc/.local/bin
+
+#My Functions
+#Looks for weather $1 takes arg of location
+wtr (){
+    curl wttr.in/"$1";
+}
+
