@@ -15,4 +15,9 @@ fi
 
 # ln -sf ~/.myconf/dot_bashrc ~/.bashrc
 
+# ln -sf ~/.myconf/nvim ~/.config/nvim
 
+#Create symlinks for suckless in ~/src
+ln -sf ~/.myconf/skls/dwm/config.h ~/src/dwm/config.h
+ln -sf ~/.myconf/skls/st/config.h ~/src/st/config.h
+ln -sf ~/.myconf/skls/slstatus/config.h ~/src/slstatus/config.h

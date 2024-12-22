@@ -1,0 +1,10 @@
+systemctl --user import-environment DISPLAY XAUTHORITY
+if command -v dbus-update-activation-environment >/dev/null 2>&1; then
+   dbus-update-activation-environment DISPLAY XAUTHORITY
+fi
+
+xrandr --setprovideroutputsource modesetting NVIDIA-0
+xrandr --output eDP-1-1 --auto --left-of HDMI-0 --auto
+
+slstatus &
+exec dwm
