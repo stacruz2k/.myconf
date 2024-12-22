@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd ~/gits/config
+cd ~/.myconf
 git add .
 git commit -m .
 git push
