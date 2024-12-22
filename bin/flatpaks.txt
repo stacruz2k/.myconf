@@ -1,0 +1,9 @@
+   60  21/12/24 20:52:33 flatpak install flathub io.gitlab.librewolf-community
+   69  21/12/24 20:52:33 flatpak install flathub org.libreoffice.LibreOffice
+  182  21/12/24 20:52:33 flatpak install flathub org.qbittorrent.qBittorrent
+  183  21/12/24 20:52:33 flatpak install flathub org.shotcut.Shotcut
+  184  21/12/24 20:52:33 flatpak install flathub de.haeckerfelix.Shortwave
+  466  21/12/24 12:37:15 flatpak install flathub com.brave.Browser
+  467  21/12/24 12:38:25 flatpak install flathub com.github.johnfactotum.Foliate
+  468  21/12/24 12:39:05 flatpak install flathub org.gnome.Evince
+ 1005  21/12/24 22:46:18 history | grep 'flatpak install' >> flatpaks.txt

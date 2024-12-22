@@ -1,0 +1,82 @@
+    1  pacman -Syu
+    2  pacman -S tmux
+    3  pacman -S iwctl
+   12  pacman -S systemd-networkd
+   13  pacman -S systemd-resolved
+   14  pacman -S iwd
+   26  pacman -S sudo
+   52  pacman -S sudo
+   53  pacman -S sudo
+   56  pacman -S sudo
+   79  history | grep pacman
+   81  history | grep pacman >> pacmans.txt
+    5  21/12/24 21:28:19 sudo pacman -Syu
+   15  21/12/24 21:28:19 sudo pacman -S xorg
+   19  21/12/24 21:28:19 sudo pacman -Ss dmenu
+   20  21/12/24 21:28:19 sudo pacman -S firefox
+   31  21/12/24 21:28:19 sudo pacman -S flatpak
+   34  21/12/24 21:28:19 sudo pacman -S wireplumber
+   35  21/12/24 21:28:19 sudo pacman -S pipewire wireplumber
+   36  21/12/24 21:28:19 sudo pacman -S pipewire pipewire-alsa
+   47  21/12/24 21:28:19 sudo pacman -S wireplumber
+   49  21/12/24 21:28:19 sudo pacman -S pipewire pipewire-alsa pipewire-pulse
+   65  21/12/24 21:28:19 sudo pacman -S btop
+   72  21/12/24 21:28:19 sudo pacman -S curl wget
+   73  21/12/24 21:28:19 sudo pacman -S geany
+  142  21/12/24 21:28:19 sudo pacman -S nmap
+  143  21/12/24 21:28:19 sudo pacman -S vlc
+  144  21/12/24 21:28:19 sudo pacman -S mc
+  145  21/12/24 21:28:19 sudo pacman -S unzip
+  146  21/12/24 21:28:19 sudo pacman -S zsh
+  147  21/12/24 21:28:19 sudo pacman -S fzf
+  148  21/12/24 21:28:19 sudo pacman -S bat
+  154  21/12/24 21:28:19 sudo pacman -S flameshot
+  155  21/12/24 21:28:19 sudo pacman -S qalculate
+  156  21/12/24 21:28:19 sudo pacman -Ss qalculate
+  157  21/12/24 21:28:19 sudo pacman -Ss qalculate-gtk
+  158  21/12/24 21:28:19 sudo pacman -S qalculate-gtk
+  159  21/12/24 21:28:19 sudo pacman -S tldr
+  161  21/12/24 21:28:19 sudo pacman -Ss nerd
+  162  21/12/24 21:28:19 sudo pacman -Ss awesome-nerd
+  163  21/12/24 21:28:19 sudo pacman -Ss awesome
+  164  21/12/24 21:28:19 sudo pacman -S ttf-font-awesome
+  210  21/12/24 21:28:19 sudo pacman -Syu
+  211  21/12/24 21:28:19 sudo pacman -S linux-lts linux-lts-headers
+  212  21/12/24 21:28:19 sudo pacman -S reflector
+  214  21/12/24 21:28:19 sudo pacman -S rsync
+  221  21/12/24 21:28:19 sudo pacman -S zsh
+  225  21/12/24 21:28:19 sudo pacman -Syu
+  235  21/12/24 21:28:19 sudo pacman -S tldr
+  246  21/12/24 21:28:19 sudo pacman -Syu
+  314  21/12/24 21:28:19 sudo pacman -S htop
+  315  21/12/24 21:28:19 sudo pacman -S Syu
+  316  21/12/24 21:28:19 sudo pacman -Syu
+  325  21/12/24 21:28:19 sudo pacman -Syu
+  327  21/12/24 21:28:19 sudo pacman -Syu
+  329  21/12/24 21:28:19 sudo pacman -Syu
+  331  21/12/24 21:28:19 sudo pacman -Syu
+  332  21/12/24 21:28:19 sudo pacman -Syu
+  333  21/12/24 21:28:19 sudo pacman -S htop
+  336  21/12/24 21:28:19 sudo pacman -S ttf-terminus-nerd
+  371  21/12/24 21:28:19 sudo pacman -S openssh
+  390  21/12/24 21:28:19 sudo pacman -Ss nerd
+  391  21/12/24 21:28:19 sudo pacman -S ttf-jetbrains-mono-nerd
+  393  21/12/24 21:28:19 sudo pacman -Ss ttf-iosevkaterm
+  394  21/12/24 21:28:19 sudo pacman -S ttf-iosevkaterm-nerd
+  469  21/12/24 12:41:27 sudo pacman -Ss dbus
+  486  21/12/24 13:28:23 sudo pacman -S libfuse2
+  487  21/12/24 13:28:58 sudo pacman -S fuse2
+  491  21/12/24 13:48:25 sudo pacman -Ss xdg-open
+  492  21/12/24 13:48:36 sudo pacman -Ss xdg
+  493  21/12/24 13:58:22 sudo pacman -S xdg-user-dirs
+  496  21/12/24 14:02:14 sudo pacman -S xdg-desktop-portal-gtk
+  516  21/12/24 14:20:46 sudo pacman -S xdg-desktop-portal
+  518  21/12/24 14:22:03 sudo pacman -S tree
+  581  21/12/24 14:56:41 sudo pacman -S --needed base-devel git
+  636  21/12/24 15:07:46 sudo pacman -S p7zip unrar tar rsync neofetch exfat-utils fuse-exfat ntfs-3g flac
+  656  21/12/24 16:03:23 sudo pacman -S cmatrix
+  658  21/12/24 16:05:38 sudo pacman -S cowsay
+  925  21/12/24 18:22:16 sudo pacman -Ss sqlite3
+ 1067  21/12/24 22:22:34 history | grep 'sudo pacman -S'
+ 1069  21/12/24 22:25:04 history | grep 'sudo pacman -S' >> pacmans.txt
+ 1076  21/12/24 22:27:10 history | grep 'sudo pacman -S' >> pacmans.txt
