@@ -3,7 +3,7 @@
 target="$HOME/.myconf"
 
 update_git() {
-    echo $target
+    echo "Updating... $target"
     cd $target
     git add .
     git commit -m .
