@@ -12,5 +12,5 @@ update_git() {
 }
 
 update_git $target
-update_git "$HOME/gits/C"
-update_git "$HOME/gits/config"
+# update_git "$HOME/gits/C"
+# update_git "$HOME/gits/config"
