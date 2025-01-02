@@ -10,6 +10,7 @@ alias grep='grep --color=auto'
 alias la='ls -lah --color=auto'
 alias ip='ip --color=auto'
 alias diff='diff --color=auto'
+alias bat='batcat --theme "Monokai Extended Origin" '
 alias nv='nvim'
 
 # My Prompt
@@ -24,7 +25,7 @@ HISTTIMEFORMAT='%d/%m/%y %T '
 
 
 #My paths
-#export PATH=$PATH:/var/lib/flatpak/exports/bin
+export PATH=$PATH:/var/lib/flatpak/exports/bin
 export PATH=$PATH:/home/jsc/.local/bin
 
 #My Functions
