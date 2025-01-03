@@ -1,5 +1,6 @@
 xrandr --output HDMI-1-0 --auto --right-of eDP-1
 setxkbmap -layout us,latam -variant intl, -option grp:win_space_toggle
+feh --bg-scale ~/Pictures/Wallpapers/wallpaperflare.com_wallpaper3.jpg
 dwmblocks &
 exec dbus-run-session dwm
 

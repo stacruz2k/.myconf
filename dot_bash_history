@@ -1,0 +1,1009 @@
+sudo apt update
+ip a
+sudo nano /etc/network/interfaces
+ip a
+sudo systemctl restart network
+sudo systemctl restart networkd
+sudo systemctl restart systemd-networkd
+ip a
+sudo ip link enp3s0 up
+sudo ip link set enp3s0 up
+ip a
+reboot
+sudo reboot
+ip a
+sudo apt update
+sudo apt install vim-gtk git build-essential clang
+sudo apt install vim-gtk3 git build-essential clang
+sudo apt install rfkill mc linux-headers-amd64
+sudo rfkill unblock wlan
+sudo rfkill
+sudo reboot
+sudo apt update
+sudo vim /etc/apt/sources.list
+sudo apt update
+sudo apt install nvidia-driver firmware-misc-nonfree
+sudo reboot
+curl
+sudo apt install curl
+curl -fsS https://dl.brave.com/install.sh | sh
+sudo apt install wireplumber pipewire-media-session-
+systemctl --user --now enable wireplumber.service
+sudo apt update
+sudo apt install xorg libx11-dev libxft-dev libxinerama-dev
+mkdir src
+cd src
+ls
+git clone https://git.suckless.org/dwm
+git clone https://git.suckless.org/st
+cd st
+ls
+make
+sudo make clean install
+cd ..
+dwm
+ls
+cd dwm
+ls
+make
+sudo make clean install
+cd ..
+git clone https://git.suckless.org/dmenu
+ls
+cd dmenu
+make
+sudo make clean install
+cd
+vim .xinitrc
+startx
+sudo reboot
+xrandr
+ls
+vim .xinitrc
+xrandr
+startx
+sudo su
+startx
+ip a
+sudo rfkill
+sudo rfkill unblock wlan
+ip a
+sudo systemctl status systemd-networkd 
+sudo system-analize blame
+sudo systemd-analyze blame
+sudo systemctl restart networking.service
+sudo apt install flatpak
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+sudo apt install tmux vlc libavcodec-extra simplescreenrecorder audacious htop fzf cmatrix zsh nmap flameshot qalculate-gtk tldr 
+sudo apt search bat
+sudo apt search batcat
+sudo apt search bat | GREP CAT
+sudo apt search bat | grep cat
+sudo apt install batcat
+sudo apt install bat
+bat 
+batcat .bashrc
+sudo reboot
+flatpak run io.gitlab.librewolf-community
+ls
+cd src
+ls
+cd st
+ls
+vim config.h
+sudo make clean insta
+sudo make clean install
+cd
+lsblk
+exit
+sudo apt install feh
+sudo apt search firefox-esr
+flatpak install flathub org.libreoffice.LibreOffice
+flatpak install flathub io.gitlab.librewolf-community
+flatpak install flathub com.discordapp.Discord
+flatpak install flathub org.gnome.Evince
+flatpak install flathub com.github.johnfactotum.Foliate
+flatpak install flathub fr.romainvigier.MetadataCleaner
+sudo apt install xdg-download
+flatpak install flathub de.haeckerfelix.Shortwave
+sudo apt search xdg-download
+sudo apt search xdg-music
+flatpak install flathub org.qbittorrent.qBittorrent
+sudo install -d -m 0755 /etc/apt/keyrings
+wget -q https://packages.mozilla.org/apt/repo-signing-key.gpg -O- | sudo tee /etc/apt/keyrings/packages.mozilla.org.asc > /dev/null
+gpg -n -q --import --import-options import-show /etc/apt/keyrings/packages.mozilla.org.asc | awk '/pub/{getline; gsub(/^ +| +$/,""); if($0 == "35BAA0B33E9EB396F59CA838C0BA5CE6DC6315A3") print "\nThe key fingerprint matches ("$0").\n"; else print "\nVerification failed: the fingerprint ("$0") does not match the expected one.\n"}'
+echo "deb [signed-by=/etc/apt/keyrings/packages.mozilla.org.asc] https://packages.mozilla.org/apt mozilla main" | sudo tee -a /etc/apt/sources.list.d/mozilla.list > /dev/null
+echo '
+Package: *
+Pin: origin packages.mozilla.org
+Pin-Priority: 1000
+' | sudo tee /etc/apt/preferences.d/mozilla
+sudo apt-get update && sudo apt-get install firefox
+sudo apt update
+exit
+ip a
+exit
+#1735862026
+ls
+#1735862032
+cd .ssh
+#1735862032
+ls
+#1735862044
+cat config
+#1735862057
+chmod 400 ~/.ssh/gitstacr
+#1735862065
+chmod 400 ~/.ssh/r4_rsa
+#1735862073
+chmod 400 ~/.ssh/olnx9
+#1735862086
+chmod 400 ~/.ssh/ssh-ora-8.key
+#1735862101
+ssh jsc@192.168.100.250
+#1735862125
+ls
+#1735862130
+cd
+#1735862136
+ls
+#1735862168
+git clone git@github.com:stacruz2k/.myconf.git
+#1735862174
+cd .myconf
+#1735862175
+ls
+#1735862201
+cd ..
+#1735862202
+ls
+#1735862204
+la
+#1735862207
+ls -la
+#1735862242
+ln -sf ~/.myconf/dot_bashrc .bashrc
+#1735862250
+source .bashrc
+#1735862252
+ls
+#1735862267
+la
+#1735862279
+cd .myconf
+#1735862280
+ls
+#1735862287
+cd ..
+#1735862287
+ls
+#1735862314
+ln -sf ~/.myconf/dot_vim .vim
+#1735862316
+vim
+#1735862320
+ls
+#1735862322
+la
+#1735862340
+cd .myconf
+#1735862340
+ls
+#1735862347
+cat dot_xinitrc
+#1735862362
+la
+#1735862373
+cd ..
+#1735862374
+cd
+#1735862376
+ls
+#1735862416
+cd .local
+#1735862417
+ls
+#1735862420
+cd share
+#1735862421
+ls
+#1735862581
+cd ..
+#1735862582
+ls
+#1735862745
+sudo apt search awesome
+#1735862844
+cd..
+#1735862846
+cd
+#1735862847
+ls
+#1735862850
+cd src
+#1735862850
+ls
+#1735862852
+cd st
+#1735862853
+ls
+#1735862872
+patch -i st-scrollback-ringbuffer-0.9.2.diff
+#1735862884
+patch -i st-scrollback-mouse-0.9.2.diff
+#1735862915
+ln -sf ~/.myconf/skls/st/config.h
+#1735862919
+ls
+#1735862929
+vim config.h
+#1735863227
+sudo make clean install
+#1735863230
+exit
+#1735863034
+cd Downloads
+#1735863034
+ls
+#1735863048
+mkdir ~/.fonts
+#1735863177
+unzip --help
+#1735863208
+unzip JetBrainsMono.zip -d ~/.fonts/JetBrainsMono
+#1735863358
+ls
+#1735863403
+unzip fontawesome-free-6.7.2-desktop.zip -d ~/.fonts/fontawesome
+#1735863434
+exit
+#1735863235
+ip a
+#1735863417
+cd ..
+#1735863418
+ls
+#1735863420
+cd
+#1735863422
+ls
+#1735863425
+cd src
+#1735863426
+ls
+#1735863445
+ls
+#1735863449
+cd dwm
+#1735863450
+ls
+#1735863472
+ln -sf ~/.myconf/skls/dwm/config.h
+#1735863478
+sudo make clean install
+#1735863485
+cd
+#1735863493
+cat .bashrc
+#1735863506
+ls
+#1735863510
+cd .myconf
+#1735863511
+ls
+#1735863517
+cd dot_local
+#1735863517
+ls
+#1735863561
+cd 
+#1735863565
+cd .local
+#1735863566
+ls
+#1735863596
+ln -sf ~/.myconf/dot_local/bin
+#1735863597
+ls
+#1735863599
+cd bin
+#1735863600
+ls
+#1735863614
+./git_push.sh
+#1735863628
+sudo reboot
+sudo mkdir /mnt/usb
+lsblk
+mount /dev/sdb1 /mnt/usb
+sudo mount /dev/sdb1 /mnt/usb
+mc
+#1735863438
+ip a
+#1735863439
+la
+startx
+#1735863671
+startx
+#1735863968
+mc
+#1735864015
+sudo shutdown now
+#1735865479
+startx
+#1735865491
+ip a
+#1735865500
+sudo apt update
+#1735865527
+sudo rfkill unblock wlan
+#1735865530
+sudo rfkill
+#1735865546
+sudo apt update
+#1735865556
+sudo reboot
+#1735865836
+ls
+#1735865859
+cd /usr/share
+#1735865860
+ls
+#1735865864
+cd xsession
+#1735865865
+ls
+#1735865871
+cd Xsession
+#1735865872
+ls
+#1735865882
+cd xsessions
+#1735865944
+sudo mkdir xsessions
+#1735865952
+cal
+#1735865988
+sudo apt install ncal
+#1735865991
+cal
+#1735865997
+cal feb
+#1735866002
+cal 2025
+#1735866050
+cd xsessions
+#1735866051
+ls
+#1735866077
+sudo vim dwm.desktop
+#1735876831
+vim .xinitrc
+#1735876862
+exit
+#1735866598
+echo $DISPLAY
+#1735866609
+echo $XAUTHORITY
+#1735866642
+echo $DBUS_SESSION_BUS_ADDRESS
+#1735866667
+echo $XDG_RUNTIME_DIR
+#1735866693
+echo $DBUS_SESSION_BUS_ADDRESS
+#1735866704
+env
+#1735868463
+export DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/$UID/bus
+#1735868466
+echo $DBUS_SESSION_BUS_ADDRESS
+#1735868638
+env
+#1735871159
+flatpak list --app
+#1735871176
+flatpak run  org.libreoffice.LibreOffice
+#1735871309
+flatpak run  org.libreoffice.LibreOffice
+#1735871412
+eval `dbus-launch --auto-syntax`
+#1735871478
+sudo apt search dbus-x11
+#1735871557
+sudo apt install -s dbus-x11
+#1735871567
+sudo apt install -s lightdm
+#1735871591
+sudo apt install -s desktop-base
+#1735871659
+sudo apt install -s pkexec
+#1735871678
+sudo apt search pkexec
+#1735871753
+dbus-launch
+#1735872014
+ls
+#1735872016
+cd src
+#1735872017
+ls
+#1735872022
+git clone https://github.com/torrinfail/dwmblocks.git
+#1735872025
+ls
+#1735872028
+cd dwmblocks
+#1735872028
+ls
+#1735872031
+make
+#1735872035
+ls
+#1735872042
+sudo make clean install
+#1735872051
+cd
+#1735876552
+cd
+#1735876560
+vim .xinitrc
+#1735876743
+setxkbmap -layout us,latam -variant intl, -option grp:win_space_toggle
+#1735876867
+exit
+#1735876191
+lsblk
+#1735876377
+sudo mount /dev/sdb1 /mnt/usb
+#1735876388
+mc
+#1735876887
+ls
+#1735876897
+cat .xinitrc
+#1735876918
+vim .xinitrc
+#1735877108
+cd etc
+#1735877126
+cd /etc/X11/Xsession
+#1735877130
+cd /etc/X11
+#1735877131
+ls
+#1735877137
+cd Xsession
+#1735865728
+ip a
+#1735865735
+sudo apt update
+#1735865765
+xsession
+#1735865771
+startx
+#1735866145
+dwm
+#1735866152
+startx
+#1735866240
+/bin/X11
+#1735866528
+echo $env
+#1735866535
+echo $ENV
+#1735866585
+echo $DISPLAY
+#1735866591
+startx
+#1735876877
+startx
+#1735876936
+startx
+#1735877159
+ls
+#1735877182
+/etc/X11/Xsession dwm
+#1735877187
+/etc/X11/Xsession
+#1735877192
+./etc/X11/Xsession
+#1735877198
+ls/etc/X11/Xsession
+#1735877210
+cd /etc/X11/Xsession
+#1735877213
+cd /etc/X11
+#1735877214
+ls
+#1735877218
+la
+#1735877233
+./Xsession dwm
+#1735877237
+./Xsession
+#1735877259
+locaalectl
+#1735877266
+localectl
+#1735877337
+cat xinit
+#1735877343
+cd xinit
+#1735877344
+ls
+#1735877351
+cat xinitrc
+#1735877490
+la
+#1735877502
+cat xserverrc
+#1735877530
+cd ..
+#1735877531
+ls
+#1735877546
+la
+#1735877569
+cd xkb
+#1735877570
+ls
+#1735877571
+la
+#1735877573
+cd ..
+#1735877574
+ls
+#1735877588
+cat Xsession.options
+#1735877597
+la
+#1735877614
+cd Xresources
+#1735877614
+ls
+#1735877623
+cat x11-common
+#1735877662
+la
+#1735877674
+cd ..
+#1735877675
+ls
+#1735877678
+la
+#1735877691
+cd xorg.conf.d
+#1735877692
+ls
+#1735877692
+la
+#1735877694
+cd ..
+#1735877695
+ls
+#1735877696
+la
+#1735877728
+ls
+#1735877729
+la
+#1735877733
+cd fonts
+#1735877733
+ls
+#1735877736
+cd ..
+#1735877737
+ls
+#1735877743
+cd
+#1735877744
+ls
+#1735877758
+la
+#1735877794
+cd Downloads
+#1735877794
+ls
+#1735877798
+cd ..
+#1735877798
+ls
+#1735877814
+sudo reboot
+#1735877952
+ls
+#1735877983
+clang --version
+#1735877993
+clang --version
+#1735878003
+ls
+#1735878004
+la
+#1735878445
+ls
+#1735878460
+cd /usr/share/xsessions
+#1735878460
+ls
+#1735878526
+cd
+#1735878527
+s
+#1735878528
+ls
+#1735878529
+la
+#1735879396
+cd
+#1735879397
+ls
+#1735879407
+vim .xinitrc
+#1735879712
+# Start a D-Bus session
+#1735879712
+source /etc/X11/xinit/xinitrc.d/30-dbus
+#1735879736
+cd /etc/X11
+#1735879737
+ls
+#1735879741
+cd xinit
+#1735879742
+ls
+#1735879750
+cd cd ..
+#1735879751
+cd
+#1735879759
+vim .xinitrc
+#1735879854
+cd
+#1735879867
+sudo vim /etc/hostname
+#1735879912
+exit
+#1735879933
+hostnamectl
+#1735879956
+hostname
+#1735879963
+hostnamectl
+#1735879970
+hostname --help
+#1735879991
+hostnamecctl --help
+#1735879999
+
+#1735880018
+hostnamectl
+#1735880027
+sudo vim /etc/hostname
+#1735880042
+hostnamectl
+#1735880265
+ls
+#1735880270
+vim .xinitrc
+#1735880361
+vim .xinitrc
+#1735878689
+sudo mount /dev/sdb1 /mnt/usb
+#1735878639
+mc
+#1735878874
+sudo umount /dev/sdb1
+#1735878883
+lsblk
+#1735878895
+du
+#1735878898
+df
+#1735877850
+uname -a
+#1735877857
+startx
+#1735880368
+startx
+#1735880409
+sudo reboot
+#1735880442
+startx
+#1735880615
+cat .xinitrc
+#1735880632
+la
+#1735880676
+cp .xinitrc .myconf/dot_xinitrc
+#1735880683
+cd .myconf
+#1735880683
+ls
+#1735880687
+git status
+#1735880690
+git add .
+#1735880729
+git commit -m .
+#1735880733
+git push
+#1735880757
+dbus-launch
+#1735880800
+htop
+#1735880909
+ls
+#1735880915
+mkdir gits
+#1735880917
+cd gits
+#1735880918
+ls
+#1735880923
+git clone git@github.com:stacruz2k/C.git
+#1735880926
+ls
+#1735880927
+cd C
+#1735880928
+ls
+#1735880932
+cd hello
+#1735880932
+ls
+#1735880937
+make hello
+#1735880939
+la
+#1735880944
+./hello
+#1735880948
+ls
+#1735880951
+cd ..
+#1735880952
+ls
+#1735880996
+cd
+#1735880997
+ls
+#1735880998
+la
+#1735881109
+sudo apt install qalculate-gtk
+#1735881123
+sudo apt install flameshot
+#1735881130
+sudo apt install geany
+#1735881144
+sudo apt install simplescreenrecorder
+#1735881267
+ls
+#1735881284
+cd /etc
+#1735881285
+ls
+#1735881293
+cd X11
+#1735881293
+ls
+#1735881298
+cd Xsession
+#1735881299
+ls
+#1735881305
+cd Xsession
+#1735881307
+cd ..
+#1735881308
+ls
+#1735881419
+cd
+#1735881427
+cd /usr/share
+#1735881428
+ls
+#1735881432
+cd xsession
+#1735881433
+ls
+#1735881437
+cd xsessions
+#1735881438
+ls
+#1735881448
+rm dwm.desktop
+#1735881473
+sudo rm -r dwm.desktop
+#1735881474
+ls
+#1735881475
+cd ..
+#1735881476
+ls
+#1735881479
+la
+#1735881487
+la xsessions
+#1735881510
+ls -la xsessions
+#1735881517
+ls xsessions
+#1735881532
+sudo reboot
+#1735882768
+flatpak list --app
+#1735882786
+flatpak install flathub io.github.Hexchat
+#1735881943
+ls
+#1735881947
+cd gits
+#1735881947
+ls
+#1735881948
+cd C
+#1735881949
+ls
+#1735881973
+mkdir LCTHW
+#1735881974
+ls
+#1735881978
+cd LCTHW
+#1735881978
+ls
+#1735881994
+vim ex1.c
+#1735882126
+ls
+#1735882145
+make ex1
+#1735882154
+la
+#1735882158
+./ex1
+#1735882251
+CFLAGS="-Wall" make ex1
+#1735882256
+CFLAGS="-Wall" make ex1
+#1735882261
+rm ex1
+#1735882263
+la
+#1735882266
+CFLAGS="-Wall" make ex1
+#1735882322
+ls
+#1735882327
+rm ex1
+#1735882328
+ls
+#1735882336
+vim Makefile
+#1735882389
+ls
+#1735882396
+make ex1
+#1735882431
+make clean
+#1735882440
+ls
+#1735882447
+vim Makefile
+#1735882479
+make clean
+#1735882482
+la
+#1735882494
+make ex1
+#1735882516
+vim Makefile
+#1735882535
+make ex1
+#1735882608
+cd
+#1735882609
+ls
+#1735882610
+la
+#1735882640
+cp .bash_history .myconf/dot_bash_history
+#1735882647
+cd .myconf
+#1735882647
+ls
+#1735882657
+cat dot_bash_history
+#1735882694
+cat dot_bash_history | grep sudo apt
+#1735882702
+cat dot_bash_history | grep "sudo apt"
+#1735882724
+cat dot_bash_history | grep "flat"
+#1735881562
+sudo apt update
+#1735881571
+startx
+#1735883441
+sudo shutdown now
+#1735913576
+vim .xinitrc
+#1735913628
+ls
+#1735913630
+la
+#1735913639
+history
+#1735913664
+cp .bash_history .myconf/dot_bash_history
+#1735913700
+cp .xinitrc .myconf/dot_xinitrc
+#1735913711
+cd .myconf
+#1735913711
+ls
+#1735913719
+cat dot_xinitrc
+#1735913737
+exit
+#1735912191
+startx
+#1735912760
+pactl info
+#1735912849
+sudo apt update
+#1735912873
+sudo apt install pulseaudio-utils
+#1735912931
+pactlinfo
+#1735912935
+pactl info
+#1735912945
+pactl --help
+#1735912965
+pactl list short sink
+#1735912966
+pactl list short sinks
+#1735913003
+pactl set-default-sink alsa_output.pci-0000_01_00.1.hdmi-stereo
+#1735913027
+pactl info
+#1735913107
+pactl set-sink-volume @DEFAULT_SINK@ +10%
+#1735913117
+pactl set-sink-volume @DEFAULT_SINK@ 80%
+#1735913168
+pactl set-sink-volume @DEFAULT_SINK@ 100%
+#1735913285
+cd
+#1735913287
+ls
+#1735913296
+cd Pictures
+#1735913297
+ls
+#1735913300
+cd Wallpapers
+#1735913301
+ls
+#1735913315
+feh --help
+#1735913319
+feh
+#1735913341
+tldr feh
+#1735913379
+la
+#1735913459
+feh --bg-center ~/Pictures/Wallpapers/wallpaperflare.com_wallpaper2.jpg
+#1735913516
+feh --bg-center ~/Pictures/Wallpapers/wallpaperflare.com_wallpaper3.jpg
+#1735913536
+feh --bg-scale ~/Pictures/Wallpapers/wallpaperflare.com_wallpaper3.jpg
+#1735913562
+cd
+#1735915587
+sudo shutdown now
