@@ -44,4 +44,4 @@ esac
 echo $vpn_conf
 vpn_pass="$HOME/Documents/vpn/pass.txt"
 
-sudo openvpn --config $vpn_conf --auth-user-pass $vpn_pass 
+sudo openvpn --config $vpn_conf --auth-user-pass $vpn_pass --auth-nocache 

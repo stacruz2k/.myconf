@@ -34,3 +34,5 @@ wtr (){
     curl wttr.in/"$1";
 }
 
+#My script aliases
+alias vpn='$HOME/.local/bin/vpn.sh'
