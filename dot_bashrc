@@ -26,9 +26,9 @@ HISTTIMEFORMAT='%d/%m/%y %T '
 
 
 #My paths
-#export PATH=$PATH:/var/lib/flatpak/exports/bin
+export PATH=$PATH:/var/lib/flatpak/exports/bin
 #export PATH=$PATH:/home/jsc/.local/bin
-#export PATH=$PATH:/home/jsc/.local/bin/scripts
+export PATH=$PATH:/home/jsc/.local/bin/scripts
 
 
 #My Functions
