@@ -1,5 +1,4 @@
 "" For clipboard to work, install vim-gtk3
-
 set encoding=utf-8
 
 " Mouse enabled in all modes

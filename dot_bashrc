@@ -12,6 +12,7 @@ alias ip='ip --color=auto'
 alias diff='diff --color=auto'
 alias bat='batcat --theme "Monokai Extended Origin" '
 alias nv='nvim'
+alias fr='flatpak run'
 
 # My Prompt
 PS1='\[\e[38;2;255;215;0m\]\[\e[1m\]\u\[\e[0m\]\[\e[38;2;255;140;0m\]@\h\[\e[0m\]:\[\e[38;2;50;205;50m\]\w\[\e[0m\]\$ '
@@ -25,9 +26,9 @@ HISTTIMEFORMAT='%d/%m/%y %T '
 
 
 #My paths
-export PATH=$PATH:/var/lib/flatpak/exports/bin
-export PATH=$PATH:/home/jsc/.local/bin
-export PATH=$PATH:/home/jsc/.local/bin/scripts
+#export PATH=$PATH:/var/lib/flatpak/exports/bin
+#export PATH=$PATH:/home/jsc/.local/bin
+#export PATH=$PATH:/home/jsc/.local/bin/scripts
 
 
 #My Functions
